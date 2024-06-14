@@ -1,7 +1,7 @@
 /* navigation tab */
 nav {
     padding: 50px;
-    height: 80vh;
+    height: 76vh;
     width: 300px;
     position: fixed;
     left: 0;
@@ -26,7 +26,7 @@ nav {
     margin: 0;
     padding: 0;
     margin-top: auto;
-    margin-bottom: 200px;
+    /*margin-bottom: 200px;*/ /*moves closer towards other the tabs*/
   }
   
   nav ul li {
@@ -83,6 +83,13 @@ nav {
   
   .welcome-message {
     font-size: 18px;
+    margin-right: 50px;
+  }
+  
+  .pfp{
+    height: 18px; /* goes to the normal size*/
+    vertical-align: middle;
+    margin-left: 10px;
   }
   
   /* table */
@@ -174,7 +181,8 @@ nav {
   }
   
   .search-box button {
-    padding: 10px 50px;
+    width: 150px;
+    height: 38px;
     font-size: 14px;
     border: none;
     border-radius: 5px;
@@ -182,7 +190,11 @@ nav {
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-align: left;
+    padding-left: 15px; /*text goes tidbit to the right*/
   }
+
+  
   
   .search-box button:hover {
     background-color: #2980b9;
